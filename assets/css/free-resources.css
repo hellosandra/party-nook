@@ -1,0 +1,58 @@
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+
+article {
+  border-radius: 5px;
+}
+
+.post {
+  background: linear-gradient(rgba(0, 174, 222, 0.9), rgba(0, 174, 222, 0.9)), url("../img/breadcrumb-bg-blue.png") fixed center center;
+  color: #FFFFFF;
+}
+
+.post .label {
+  font-family: "Pacifico";
+  font-size: 1.875em;
+  font-weight: 400;
+  line-height: 2.33;
+  color: #FFC50A;
+}
+
+.post .post-header .post-title h3 {
+  font-weight: 700;
+}
+
+.post .read-more-btn {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 25px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  border: 2px solid #FFFFFF;
+}
+
+.post .read-more-btn:hover {
+  border: 2px solid #F6921E;
+  color: #FFFFFF;
+  background-color: #F6921E;
+}
+
+.page-item.active .page-link {
+  background-color: #00A8DE;
+  border-color: #00A8DE;
+}
+
+@media (max-width: 769px) {
+  .inner-page .row {
+    justify-content: center;
+  }
+  article .read-more-btn-container {
+    display: flex;
+    justify-content: center;
+  }
+}
