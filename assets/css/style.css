@@ -245,8 +245,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Get Started Button */
-.get-started-btn {
+/* Request A Call Button */
+.request-call-btn {
   margin-left: 25px;
   color: #EB148D;
   border-radius: 50px;
@@ -259,13 +259,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-.get-started-btn:hover {
+.request-call-btn:hover {
   background: #00A8DE;
   color: #fff;
 }
 
 @media (max-width: 768px) {
-  .get-started-btn {
+  .request-call-btn {
     margin: 0 48px 0 0;
     padding: 6px 20px 7px 20px;
   }
